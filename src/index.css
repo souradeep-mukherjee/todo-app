@@ -1,0 +1,35 @@
+body {
+  background-color: #F0FFFF;
+  font-family: "Arial", sans-serif;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.task-column {
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.column-0 {
+  background-color: #B2FFFF;
+}
+
+.column-1 {
+  background-color: #00BFFF;
+}
+
+.column-2 {
+  background-color: #0CAFFF;
+}
+
+button {
+  font-weight: bold;
+}
+
+.MuiSvgIcon-root { /* Targeting Material UI Icons */
+  color: #002244;
+}
