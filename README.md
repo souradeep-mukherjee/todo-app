@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 📝 To-Do Kanban App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually appealing **Kanban-style To-Do app** built with **React** and **Material-UI**, allowing users to manage tasks by moving them across three categories:  
+✅ **To-Do**  
+⏳ **In Progress**  
+✔ **Completed**  
 
-## Available Scripts
+## 🚀 Features
+- 📌 **Add Tasks** - Easily add tasks using the input field.
+- 🔄 **Move Tasks** - Use arrow buttons to move tasks across categories.
+- 🗑 **Delete Tasks** - Remove tasks with a delete button.
+- 🎨 **Colorful UI** - Styled with Material-UI and CSS.
+- 📱 **Responsive Design** - Works well on all screen sizes.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Installation
+- npm install
+- npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **1️⃣ Clone the Repository**
+   sh
+   git clone https://github.com/your-username/todo-kanban.git
+   cd todo-kanban
+###/todo-kanban
+│── /src
+│   ├── /components
+│   │   ├── TaskCard.js       # Task item component with arrows & delete button
+│   │   ├── TodoForm.js       # Form to add new tasks
+│   ├── App.js                # Main component managing state & UI
+│   ├── styles.css            # Custom styling for the app
+│── package.json
+│── README.md
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###🎨 UI Design & Styling
+Background Color: #F0FFFF
+To-Do Column: #B2FFFF
+In Progress Column: #00BFFF
+Completed Column: #0CAFFF
+Arrow Icons Color: #7DF9FF
+Typography & Layout: Styled with Material-UI components
 
-### `npm test`
+###✨ How It Works
+1️⃣ Add a new task - Enter a task in the input field and press "Add".
+2️⃣ Move tasks - Use the left (⬅️) or right (➡️) arrow buttons to shift tasks between categories.
+3️⃣ Delete tasks - Click the trash (🗑) icon to remove a task.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###💡 Future Enhancements
+✅ Drag-and-drop functionality
+🎯 Task priorities & due dates
+🌙 Dark mode support
+📊 Persistent storage with LocalStorage or Database
 
-### `npm run build`
+###Preview
+![Screenshot 2025-02-13 143339](https://github.com/user-attachments/assets/4f16b809-1251-4229-9c60-1ff0d9bcc46a)
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **💡 What's Included?**
+✔ Installation steps  
+✔ Features overview  
+✔ UI design details  
+✔ Future improvements  
+✔ License and Contribution guidelines  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you need any **modifications** or if you’d like a **better preview image** for the UI! 🚀😃
